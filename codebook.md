@@ -1,9 +1,3 @@
----
-output:
-  word_document: default
-  html_document: default
----
-
 ======================================================================
 
 # Codebook for subset_data.csv and subset_summary.csv
