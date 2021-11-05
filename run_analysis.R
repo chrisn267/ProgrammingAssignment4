@@ -114,11 +114,6 @@
     # use these cleaned up names to label the subset data (mean and std only)
     names(subset.data)[4:69] <- feature.subset.clean
     
-    # arrange column names alphabetically (except for first 3 columns)
-    # colsort <- sort(colnames((subset.data)[4:69]))
-    # subset.data <- select(subset.data, test_or_train, subject_id, activity_label, all_of(colsort))
-    # feature.subset.clean <- sort(feature.subset.clean)
-
 # Step 5 - From the data set in step 4, create a second, independent tidy data set with 
          # the average of each variable for each activity and each subject.
     
