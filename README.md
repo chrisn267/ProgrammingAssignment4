@@ -6,7 +6,7 @@
 ======================================================================
 
 This project takes a dataset produced from experiments using smartphone sensor
-signals, and further prepares that data by cleaning, subsetting and summarising 
+signals, and further prepares that data by cleaning, subsetting and summarising
 to produce two tidy datasets.
 
 Full details of the original experiment can be found in the README.txt file in the 

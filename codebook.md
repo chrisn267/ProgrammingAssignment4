@@ -2,23 +2,23 @@
 
 # Codebook for subset_data.csv and subset_summary.csv
 
-This codebook accompanies the tidy datasets subset_data.csv and subset_summary.csv.  
-These datasets are produced using the script run_analysis.R from the raw dataset 
-UCI HAR Dataset.  Further information on the raw data, the script, and the tidy data 
+This codebook accompanies the tidy datasets subset_data.csv and subset_summary.csv.
+These datasets are produced using the script run_analysis.R from the raw dataset
+UCI HAR Dataset.  Further information on the raw data, the script, and the tidy data
 can be found in the accompanying README.md which should be read alongside this codebook.
 
 The data included in the two datasets is based upon raw data obtained from analysis
 of smartphone data from 30 subjects performing six different activities in an experimental
-setting.  Raw data were captured from the phone's accelerometer and gyroscope.  
+setting.  Raw data were captured from the phone's accelerometer and gyroscope.
 For further information on the original experiments see README.md.
 
 ======================================================================
 
 ## subset_data.csv
-The variables included in this dataset are selected outputs from the smartphone produced 
-during the experiments. The variables remian the same as per the orginal dataset 'X' 
+The variables included in this dataset are selected outputs from the smartphone produced
+during the experiments. The variables remian the same as per the orginal dataset 'X'
 but only a subset are captured wheter the measurements are either mean or standard
-deviation (std). Further information on the original data can be found alongside 
+deviation (std). Further information on the original data can be found alongside
 the raw data ('UCI HAR Dataset') in the 'features_info.txt' file.
 
 The dataset contains the following variables as individual columns (column numbers
