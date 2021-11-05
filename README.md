@@ -34,7 +34,7 @@ in order for run_analysis.R to execute correctly.
 
 
 ### run_analysis.R
-An R script which can be run in its entirety to create the two output csv files
+An R script which can be run in its entirety to create the two output txt files
 from the raw input data.  This script also creates the same data as tibbles in R
 which can then be worked from.  The script contains detailed comments to allow the
 user to step through and understand how the tidying has been produced.  The script 
@@ -42,12 +42,12 @@ should be run from the same location as the raw data folder and the output files
 in turn be generated in the same location.
 
 
-### subset_data.csv
+### subset_data.txt
 The output file containing the mean and standard deviation variables from the original
 raw data.  (further details provided in codebook.md).
 
 
-### subset_summary.csv
+### subset_summary.txt
 The output file containing summarised data across the different subjects and activities
 for each variable.  The data is summarised by taking the mean.  (further details 
 provided in codebook.md).

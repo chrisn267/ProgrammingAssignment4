@@ -1,8 +1,8 @@
 ======================================================================
 
-# Codebook for subset_data.csv and subset_summary.csv
+# Codebook for subset_data.txt and subset_summary.txt
 
-This codebook accompanies the tidy datasets subset_data.csv and subset_summary.csv.
+This codebook accompanies the tidy datasets subset_data.txt and subset_summary.txt.
 These datasets are produced using the script run_analysis.R from the raw dataset
 UCI HAR Dataset.  Further information on the raw data, the script, and the tidy data
 can be found in the accompanying README.md which should be read alongside this codebook.
@@ -14,7 +14,7 @@ For further information on the original experiments see README.md.
 
 ======================================================================
 
-## subset_data.csv
+## subset_data.txt
 The variables included in this dataset are selected outputs from the smartphone produced
 during the experiments. The variables remian the same as per the orginal dataset 'X'
 but only a subset are captured wheter the measurements are either mean or standard
@@ -91,8 +91,8 @@ freqBodyAcc-XYZ, freqBodyAccJerk-XYZ, freqBodyGyro-XYZ, freqBodyAccJerkMag, freq
 freqBodyGyroJerkMag. 
 
 
-## subset_summary.csv
-This file contains a summary of the data provided in subset_data.csv.  The data is 
+## subset_summary.txt
+This file contains a summary of the data provided in subset_data.txt.  The data is 
 summarised by providing the average (mean) for each grouping of subject_id and activity_label.
 This provides 180 (6 x 30) rows of summarised data.  The data is summarised for 
 the same variables as the subset_data (see details provided above).

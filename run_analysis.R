@@ -9,12 +9,12 @@
 ##  Step 4 - Appropriately label the data set with descriptive variable names.                                  ##
 ##  Step 5 - From the data set in step 4, create a second, independent tidy data set with                       ##
 ##           the average of each variable for each activity and each subject.                                   ##
-##  Step 6 - Push the two created datasets to csv files, and optionally tidy up intermediate data structures.   ##
+##  Step 6 - Push the two created datasets to txt files, and optionally tidy up intermediate data structures.   ##
 ##                                                                                                              ##
 ##  - This script assumes that a folder called "UCI HAR Dataset" containing the raw data                        ##
 ##    sits within the same folder as the R scripts and that the structure of the raw dataset is untouched.      ##
-##  - This script creates an "output_csv" folder and places two output .csv files in that folder.               ##
-##  - The scipt allows the user to select which r data structures are maintained after it is run,               ##
+##  - This script creates two output txt files and places them in the working directory.                        ##
+##  - The script allows the user to select which r data structures are maintained after it is run,              ##
 ##    currently intermediate structures are not maintained.                                                     ##
 ##  - Currently all steps must be run in sequence to ensure correct execution of the script.                    ##
 ##                                                                                                              ##
@@ -122,11 +122,11 @@
         group_by(subject_id, activity_label) %>%
         summarise_if(is.numeric, mean)
     
-# Step 6 - Push the two created datasets to csv files, and tidy up intermediate data structures.
+# Step 6 - Push the two created datasets to txt files, and tidy up intermediate data structures.
     
-    # write to csv files in current folder
-    write_csv(subset.data, "subset_data.csv")
-    write_csv(subset.summary, "subset_summary.csv")
+    # write to txt files in current folder
+    write.table(subset.data, "subset_data_Q4.txt", row.names = FALSE)
+    write.table(subset.summary, "subset_summary_Q5.txt", row.names = FALSE)
     
     # tidy up data structures to determine which are maintained in R when the script is run
     # this list below can be commented / uncommented (## /  ) to remove / keep data structures 
