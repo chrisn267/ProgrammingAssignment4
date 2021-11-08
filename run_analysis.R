@@ -43,7 +43,7 @@
     #   train    - 12 files of training data
     #   test     - 12 files of test data
     #   metadata - a list of feature labels and a list of activities
-    rawdata = list(train = train.raw, 
+    rawdata <- list(train = train.raw, 
                    test = test.raw, 
                    metadata = list(features = feature.raw[,2], activities = activity.raw[,2]))
 
