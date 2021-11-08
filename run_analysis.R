@@ -44,8 +44,8 @@
     #   test     - 12 files of test data
     #   metadata - a list of feature labels and a list of activities
     rawdata <- list(train = train.raw, 
-                   test = test.raw, 
-                   metadata = list(features = feature.raw[,2], activities = activity.raw[,2]))
+                    test = test.raw, 
+                    metadata = list(features = feature.raw[,2], activities = activity.raw[,2]))
 
     # name the data tibbles in 'train' and 'test' with their original file names for clarity    
     names(rawdata$train) <- basename(train.txt)
